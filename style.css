@@ -1,0 +1,158 @@
+/* Merriweather Font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* inter font  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+/* banner section  */
+
+.banner {
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(./images/Banner\ Image.png);
+    height: 600px;
+    max-width: 1320px;
+    margin: 50px auto;
+    color: white;
+    background-size: cover;
+    font-family: "Merriweather", serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+
+}
+
+.banner-div {
+    max-width: 632px;
+    text-align: center;
+}
+
+.banner-top {
+    font-size: 32px;
+    margin-bottom: 16px;
+
+}
+
+.banner-heading {
+    font-size: 72px;
+}
+
+/* new year off section  */
+.off-card-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.of-card-div {
+    max-width: 802px;
+    text-align: center;
+
+}
+
+.off-heading {
+    color: red;
+    font-size: 88px;
+    padding-bottom: 48px;
+}
+
+.off-p1 {
+    color: red;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.cata-text {
+    font-size: 48px;
+    margin-bottom: 48px;
+    font-weight: 700;
+}
+
+/* Welcome to midnight party  */
+.party-section {
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(./images/Vectorrr.png);
+    background-size: cover;
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-radius: 26px;
+}
+
+.party-contener {
+
+
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 0 126px;
+
+}
+
+.party-welcome-heading {
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    margin-bottom: 24px;
+
+}
+
+.party-discription {
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+.join-now-btn {
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    color: white;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+
+/* location btn  */
+
+.location-section {
+    width: 1320px;
+    height: 483px;
+    border-radius: 16px;
+    background-image: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+
+
+}
+
+.location-section p {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.location-section span {
+    color: red;
+}
+
+.location-join-btn {
+    margin-top: 48px;
+    padding: 16px 32px;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+}
