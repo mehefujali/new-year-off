@@ -157,9 +157,14 @@
     color: white;
 }
 
+
+
+/* New best offre coming  soon section  */
+
 .best-offer-section {
     display: flex;
     justify-content: center;
+    margin-bottom: 120px;
 }
 
 .best-offer-content {
@@ -211,4 +216,59 @@
     font-size: 48px;
     color: red;
     margin-bottom: 26px;
+}
+
+.funtional-section {
+    margin-bottom: 120px;
+}
+
+
+.funtanal-contener {
+    text-align: center;
+
+}
+
+.gift-box-section {
+    width: 1320px;
+    height: 662px;
+    background-image: url(./images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-position: bottom;
+    margin-bottom: 120px;
+}
+
+.box-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.off-img {
+    width: 206px;
+    height: 206px;
+}
+
+
+/* Products  */
+.products-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.products-contener {
+    width: 1320px;
+}
+
+.the-big {
+    font-size: 24px;
+    font-weight: 500;
+    color: red;
+}
+
+.products-contener>h1 {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: "Merriweather";
+    margin-bottom: 16px;
 }
