@@ -272,3 +272,79 @@
     font-family: "Merriweather";
     margin-bottom: 16px;
 }
+
+/* Subscribe section  */
+
+.subscribe-section {
+    width: 1320px;
+    height: 616px;
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.05);
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-bottom: 120px;
+}
+
+.subscribe-contener {
+
+    text-align: center;
+    width: 896px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subscribe-contener img {
+
+    width: 131px;
+    margin: auto;
+}
+
+.subscribe-heading {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: "Merriweather";
+    margin-top: 40px;
+    margin-bottom: 22px;
+
+}
+
+.subscribe-content {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    align-items: center;
+
+}
+
+.email-input {
+    height: 47px;
+    width: calc(648px - 210px);
+    border-right: none;
+    border-radius: 35px 0 0 35px;
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.subscribe-btn {
+    height: 67px;
+    width: 210px;
+    border-left: none;
+    border-radius: 0 35px 35px 0;
+    color: white;
+    font-size: 24px;
+    background-color: red;
+    border: none;
+
+    &:hover {
+        background-color: rgb(177, 0, 0);
+        cursor: pointer;
+    }
+}
