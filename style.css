@@ -156,3 +156,59 @@
     font-size: 20px;
     color: white;
 }
+
+.best-offer-section {
+    display: flex;
+    justify-content: center;
+}
+
+.best-offer-content {
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dis-1 {
+    width: 393px;
+}
+
+.best-new-year {
+    width: 276px;
+}
+
+.best-offer-image img {
+    width: 364px;
+}
+
+.best-offer-image {
+    padding: 49px;
+    border: 15px solid red;
+    border-radius: 50%;
+}
+
+.new-best-offer {
+    font-size: 24px;
+    color: red;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.coming-soon {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: "Merriweather";
+    margin-bottom: 16px;
+}
+
+.best-off-des {
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 16px;
+}
+
+.off-year-head {
+    font-size: 48px;
+    color: red;
+    margin-bottom: 26px;
+}
